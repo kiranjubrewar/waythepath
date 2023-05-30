@@ -1,0 +1,38 @@
+.container {
+    width: 300px;
+    margin: 20px;
+  }
+  
+  h2 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  #state-list,
+  #place-list {
+    display: none;
+  }
+  
+  #state-list.active,
+  #place-list.active {
+    display: block;
+  }
+  
